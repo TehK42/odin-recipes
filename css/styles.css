@@ -2,8 +2,24 @@ body {
     background-color: rgb(163, 49, 72);
 }
 
-h1 {
+h1,h2,h3,
+.desc {
     text-align: center;
+}
+
+h2 {
+    font-weight: light;
+}
+
+h3 {
+    font-weight: bolder;
+    display: table;
+    margin: auto;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
 }
 
 ul {
@@ -15,22 +31,29 @@ ul {
     background: rgb(200, 99, 99);
 }
 
+ol {
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+
+.recipe-ingredients {
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: coral;
+}
+
 .recipe-list {
     list-style-image: url('../img/cirno.png');
     color:rgb(81, 18, 18);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
-}
-
-
-#reimu {
-    padding-bottom: 5px;
-    text-align: center;
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
 }
 
 .marisa,
@@ -46,4 +69,26 @@ ul {
 
 .marisaflip {
     right: 0px;
+}
+
+.recipe-body {
+    background-color: darkkhaki;
+}
+
+.recipe-image {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#reimu {
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
